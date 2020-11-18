@@ -9,7 +9,7 @@ on:
   schedule:
      - cron: '1 16-23/3 * * *'
   watch:
-    types: started
+    types: [started]
 jobs:
   build:
     env:
